@@ -1,0 +1,29 @@
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape__titulo {
+    padding: 0.6em 0;
+}
+
+.rodape__logo {
+    margin-bottom: 0;
+    align-self: flex-end;
+}
+
+@media (min-width:720px) {
+    .rodape__logo {
+        padding-left: 50%;
+    }
+}
+
+@media (min-width:1440px) {
+    .rodape {
+        justify-content: space-around;
+    }
+    .rodape__logo {
+        padding-left: 0;
+    }
+}
